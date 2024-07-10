@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
+import { inject } from '@vercel/analytics';
 
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -28,7 +29,8 @@ const Wrapper = styled.div`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  
+  inject();
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >

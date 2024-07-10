@@ -11,7 +11,7 @@ export const Bio = {
     "UI/UX Designer",
   ],
   description:
-    "",
+    "https://drive.google.com/file/d/1WbZqXxm9a7II8rrAekdJ8geMbTMuZW4C/view",
   github: "https://github.com/imAky",
   resume:
     "",
