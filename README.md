@@ -1,1 +1,1 @@
-protfolio - https://amitprotfolio.vercel.app/
+https://amitprotfolio.vercel.app/
