@@ -14,7 +14,7 @@ export const Bio = {
     "",
   github: "https://github.com/imAky",
   resume:
-    "https://drive.google.com/file/d/1B6OCfSM9Dvm6tGqAULXTU-5Y-tJSOhSZ/view?usp=sharing",
+    "https://drive.google.com/file/d/11d5hpxe7dQUPZ9zZYrFfJEBALMmbWCMq/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/imtheaky/",
   
 };
@@ -197,7 +197,7 @@ export const projects = [
     image:
       connect,
     github: "https://github.com/imAky/social-connect",
-    webapp: "https://social-connect-4u5k.onrender.com",
+    webapp: "https://connect-wioz.onrender.com",
   },
   {
     id: 0,
@@ -207,7 +207,7 @@ export const projects = [
     image:
       bluesky,
     github: "https://github.com/imAky/BlueSky-",
-    webapp: "https://bluesky-xk0s.onrender.com",
+    webapp: "https://bluesky-a1e3.onrender.com",
   },
   {
     id: 1,
