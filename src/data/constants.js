@@ -14,7 +14,7 @@ export const Bio = {
     "",
   github: "https://github.com/imAky",
   resume:
-    "https://drive.google.com/file/d/1-s0udFWXWpgJ1_Ll-sVDz1wDsNIDsGOV/view?usp=sharing",
+    "https://drive.google.com/file/d/1bi1C7FGr1v0adwhzFyTNZ0MQbmOus6w8/view",
   linkedin: "https://www.linkedin.com/in/imtheaky/",
   
 };
