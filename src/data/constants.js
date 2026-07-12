@@ -1,20 +1,23 @@
-import connect from '../images/connect.png'
+
 import typingbattle from '../images/typingbattle.png'
 import g4google from '../images/g4google.png';
 import y4youtube from '../images/y4youtube.png';
-import bluesky from '../images/bluesky.png';
+import livewine from '../images/livewine.png';
+import bagisto from '../images/bagisto.png';
+import prestashop from '../images/prestashop.png';
+
 export const Bio = {
   name: "Amit Kumar",
   roles: [
-    "Full Stack Developer",
-    "Software Engineer",
-    "UI/UX Designer",
+   "Software Engineer",
+    "Full Stack Engineer",
+    "Next.js Developer",
   ],
   description:
-    "",
+    "Software Engineer with experience building production-grade web applications and headless commerce platforms using Next.js, React, Node.js, GraphQL, and modern frontend technologies.",
   github: "https://github.com/imAky",
   resume:
-    "https://drive.google.com/file/d/1bi1C7FGr1v0adwhzFyTNZ0MQbmOus6w8/view",
+    "https://drive.google.com/file/d/15x_WvNYG4eicx9C6ZAk5auxLzn8LVFVr/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/imtheaky/",
   
 };
@@ -188,32 +191,42 @@ export const skills = [
 
 
 export const projects = [
+{
+  id: 10,
+  title: "LiveWine Marketplace",
+  date: "Jan 2026 - Present",
+  description:
+    "Built a production-grade headless commerce storefront using Next.js App Router and GraphQL. Developed 50+ reusable components, integrated enterprise APIs, and improved initial page load by 30–40% through rendering and performance optimizations.",
+  image: livewine,
+  github: "",
+  webapp: "https://www.livewine.com",
+},
+{
+  id: 9,
+  title: "Headless Commerce Platform",
+  date: "Feb 2026 - Present",
+  description:
+    "Developed a scalable headless commerce platform with Next.js App Router featuring server-side rendering, dynamic routing, and modern frontend architecture, improving Lighthouse performance from 68 to 90.",
+  image: bagisto ,
+  github: "",
+  webapp: "https://bagisto-headless.vercel.app/",
+},
   {
-    id: 9,
-    title: "Connect",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "I developed a dynamic social media platform using the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.io, featuring user account management, image posting, tweeting, following, real-time chatting, account freezing, profile updates, commenting, and liking posts. This project highlights my proficiency in full-stack development and real-time communication technologies, creating an engaging and interactive user experience.",
-    image:
-      connect,
-    github: "https://github.com/imAky/social-connect",
-    webapp: "https://connect-wioz.onrender.com",
-  },
-  {
-    id: 0,
-    title: "Blue Sky",
-    description:
-      "Developed Blue Sky, a  hotel booking website utilizing the MERN stack (MongoDB, Express.js, React, Node.js) and JSON Web Tokens for authentication. The platform enables users to create and manage property listings, upload images, specify room types (rent, sale, offer), list amenities (parking, furnished, etc.), search and sort listings by various criteria, contact property owners, and manage their accounts. This project highlights my proficiency in full-stack development, secure authentication, and creating comprehensive, feature-rich web applications.",
-    image:
-      bluesky,
-    github: "https://github.com/imAky/BlueSky-",
-    webapp: "https://bluesky-a1e3.onrender.com",
-  },
+  id: 8,
+  title: "Enterprise Commerce Storefront",
+  date: "Mar 2026 - Present",
+  description:
+    "Built a responsive enterprise storefront using Next.js with optimized navigation, reusable UI components, and modern commerce architecture, improving browsing performance by approximately 35%.",
+  image: prestashop ,
+  github: "",
+  webapp:
+    "https://voguish-presta.vercel.app/?id_currency=1&id_lang=1",
+},
   {
     id: 1,
     title: "Googl Search",
     description:
-      "Developed a Google search web application using Next.js and the Google Programmable Search Engine. This platform enables users to search for web content and images, display search results with pagination, and utilize user location services. Designed to mirror the interface of Google search, this project demonstrates my proficiency in modern web development and user experience design.",
+"Built a Google Search clone using Next.js and Google Programmable Search API featuring web and image search, responsive UI, pagination, and location-aware search results.",
     image:
       g4google,
     github: "https://github.com/imAky/Search-Engine",
@@ -223,7 +236,7 @@ export const projects = [
     id: 2,
     title: "Youtube Downloader",
     description:
-      "Developed a YouTube video downloader website utilizing Next.js for the frontend and Express.js for the backend, powered by the ytdl library. This platform enables users to download YouTube videos in multiple qualities and formats while verifying the validity of YouTube links before initiating downloads. This project highlights my expertise in web development, API integration, and ensuring seamless user interactions.",
+"Developed a YouTube downloader using Next.js and Express.js with multiple download formats, quality selection, and secure URL validation for a seamless user experience.",
     image:
       y4youtube,
     github: "https://github.com/imAky/y4youtube-backend",
@@ -233,12 +246,12 @@ export const projects = [
     id: 3,
     title: "Typing Battle",
     description:
-      "Developed TypingBattle.com, a typing speed website with 2000 monthly active users. It's built using Next.js , MongoDB for the database, and integrates Chart.js for visualizing performance metrics. Users can practice typing, track metrics such as words per minute (WPM), accuracy, key tracking, and total practice time. The website features a leaderboard and user dashboard for performance analysis, showcasing my expertise in full-stack web development and creating engaging user interfaces.",
+      "Built a full-stack typing practice platform using Next.js and MongoDB with real-time typing analytics, leaderboards, performance dashboards, and support for over 2,000 monthly active users.",
     image:
      typingbattle,
     
     github: "https://github.com/imAky/tuftyping",
-    webapp: "https://www.typingbattle.com/",
+    webapp: "https://typingbattle.vercel.app/",
   },
   
 ];
